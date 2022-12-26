@@ -1,0 +1,10 @@
+A= ['Mon','Tue','Wed','Mon']
+print("The given list : ",A)
+if(len(set(A)) == len(A)):
+    print("All elements are unique.")
+else:
+   print("All elements are not unique.")
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/sdfg.py =
+The given list :  ['Mon', 'Tue', 'Wed', 'Mon']
+All elements are not unique.
