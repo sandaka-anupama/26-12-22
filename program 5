@@ -1,0 +1,19 @@
+#PRIME OR NOT
+n=int(input('Enter a number:'))
+count=0
+for i in range(1,n+1):
+    if n%i==0:
+        count=count+1
+if count==2:
+    print('Prime')
+else:
+    print('Not Prime')
+
+output:
+    = RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/prime.py =
+Enter a number:3
+Prime
+
+= RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/prime.py =
+Enter a number:6
+Not Prime
