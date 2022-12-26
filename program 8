@@ -1,0 +1,20 @@
+print ("Print leap year between two given years")
+print ("Enter start year")
+startYear = int(input())
+print ("Enter last year")
+endYear = int(input())
+ print ("List of leap years:")
+for year in range(startYear, endYear):
+ if (0 == year % 4) and (0 != year % 100) or (0 == year % 400):
+    print (year)
+output:
+    == RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/leap.py =
+Print leap year between two given years
+Enter start year
+2000
+Enter last year
+2010
+List of leap years:
+2000
+2004
+2008
