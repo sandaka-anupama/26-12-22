@@ -1,0 +1,18 @@
+def countsquares(x):
+    sqrt=x**0.5
+    result=int(sqrt)
+    return result
+x=int(input())
+if countsquares(x)>10:
+    print('Hello')
+else:
+    print('hi')
+output:
+    
+=== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/jk.py ==
+4
+hi
+
+=== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/jk.py ==
+144
+Hello
