@@ -1,0 +1,16 @@
+lst = []
+num = int(input('How many numbers: '))
+for n in range(num):
+    numbers = int(input('Enter number '))
+    lst.append(numbers)
+print(" Difference betweem Maximum element  and minimum element in the list is :", max(lst)-min(lst))
+
+output:
+    == RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/maxi.py =
+How many numbers: 5
+Enter number 67
+Enter number 89
+Enter number 9
+Enter number 45
+Enter number 7
+ Difference betweem Maximum element  and minimum element in the list is : 82
