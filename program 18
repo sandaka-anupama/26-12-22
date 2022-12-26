@@ -1,0 +1,8 @@
+l=[10,30,56,12,11,5,99]
+l.sort()
+print(l)
+
+output:
+    
+= RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/sdfgh.py =
+[5, 10, 11, 12, 30, 56, 99]
