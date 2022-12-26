@@ -1,0 +1,8 @@
+lst = [10, 11, 12, 13, 14, 15]
+lst.reverse()
+print("Using reverse() ", lst)
+ 
+output:
+    
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/rev.py ==
+Using reverse()  [15, 14, 13, 12, 11, 10]
