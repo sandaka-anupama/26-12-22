@@ -1,0 +1,16 @@
+lst = []
+num = int(input('How many numbers: '))
+for n in range(num):
+    numbers = int(input('Enter number '))
+    lst.append(numbers)
+print("Maximum element  and minimum primes in the list is :", max(lst),min(lst))
+
+output:
+    = RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/xdfg.py =
+How many numbers: 5
+Enter number 79
+Enter number 13
+Enter number 59
+Enter number 61
+Enter number 11
+Maximum element  and minimum primes in the list is : 79 11
