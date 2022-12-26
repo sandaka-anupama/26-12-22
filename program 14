@@ -1,0 +1,26 @@
+def check_happy(number):
+  remainder = 0
+  happy_num = 0;    
+  while(number > 0):    
+    remainder = number%10;    
+    happy_num = happy_num + (remainder*remainder);    
+    number = number//10;
+  return happy_num;
+n= int(input("ENTER VALUE : "))
+for i in range(n-1,2,-1):
+  happy_num = i
+  while(happy_num != 1 and happy_num != 4):
+    happy_num = check_happy(happy_num)
+  if(happy_num == 1):
+    print(i,end=" ")
+    break
+
+output:
+    
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/thj.py ==
+ENTER VALUE : 10
+7 
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/thj.py ==
+ENTER VALUE : 15
+13 
