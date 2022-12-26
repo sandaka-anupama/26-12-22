@@ -1,0 +1,24 @@
+def ishappy(n):
+    sum=0
+    while(n>0):
+        rem=n%10
+        sum=sum+rem*rem
+        n=n//10
+    return sum
+n=int(input())
+while(n>9):
+    n=ishappy(n)
+if n==1 or n==7:
+    print('Happy number')
+else:
+    print('Not happy number')
+
+output:
+    
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/hap.py ==
+76
+Not happy number
+
+== RESTART: C:/Users/S ANUPAMA/AppData/Local/Programs/Python/Python311/hap.py ==
+31
+Happy number
